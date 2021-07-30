@@ -1,0 +1,68 @@
+.mobile-menu {display:none}
+
+@media (max-width: 700px) {
+  header .mobile-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  header .mobile-menu .mobile-input {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    border: #c5c5c5 solid 0.5px;
+    border-radius: 10px;
+  }
+  header .mobile-menu .mobile-input input {
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    width:110px;
+  }
+  header .mobile-menu .mobile-input .fa-search {
+    font-size: 1.2rem;
+    color: #bdbbbb;
+    margin-right: 35px;
+    cursor: pointer;
+  }
+  header .mobile-menu h3 {
+    font-size: 1.4rem;
+  }
+  header .mobile-menu ol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  header .mobile-menu ol li {
+    list-style: none;
+  }
+  header .mobile-menu ol a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #bdbbbb;
+  }
+}
+
+@media (max-width: 500px) {
+  header .mobile-menu h3 {
+    font-size: 1rem;
+  }
+  header .mobile-menu a {
+    font-size: 0.6rem;
+  }
+  header .mobile-menu .mobile-input {
+    width: 120px;
+    font-size:1rem;
+  }
+  header .mobile-menu .mobile-input .fa-search {
+    font-size: 1.rem;
+    margin-left: -25px;
+  }
+}

@@ -1,0 +1,16 @@
+<section class="container">
+  <table  *ngFor=" let noticia of noticias">
+
+  <article class="container-post">
+  <td><img src="{{noticia.image}}" class="img-post"></td>
+  <h3>{{noticia.title}}</h3>
+  <div class="container-text">
+  <p>{{noticia.body}}</p>
+  </div>
+  <a routerLink="/post">Ler mais</a>
+  <td></td>
+
+  </article>
+
+  </table>
+  </section>

@@ -1,0 +1,14 @@
+.resultado {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+
+.resultado h1 {
+  font-size: 1.4rem;
+}
+
+.resultado p {
+  font-size: 1rem;
+  color: #bdbbbb;
+}

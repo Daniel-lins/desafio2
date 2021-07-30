@@ -1,0 +1,58 @@
+
+ aside {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+ aside .input-pesquisa {
+  height: 35px;
+  width: 180px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: grey solid 0.5px;
+  border-radius: 10px;
+}
+
+ aside .input-pesquisa input {
+  border: none;
+  outline: none;
+
+}
+
+ aside .input-pesquisa .fa-search {
+  font-size: 1.2rem;
+  color: #bdbbbb;
+
+  cursor: pointer;
+}
+
+ aside h3 {
+
+  font-size: 1.4rem;
+}
+
+ aside ol {
+  list-style: none;
+}
+
+ aside ol li {
+  margin: 10px;
+}
+
+ aside ol li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #bdbbbb;
+}
+
+
+@media (max-width: 700px) {
+   aside {
+  display: none;
+}
+}
