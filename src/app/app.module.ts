@@ -8,7 +8,7 @@ import { AsideComponent } from './aside/aside.component';
 import { ResultadoComponent } from './resultado/resultado.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { HttpClientModule } from '@angular/common/http';
-import { RegistrarComponent } from './registrar/registrar.component';
+// import { RegistrarComponent } from './registrar/registrar.component';
 import { HomeComponent } from './home/home.component';
 import { PostComponent } from './post/post.component';
 import { FormsModule } from '@angular/forms';
@@ -19,7 +19,7 @@ import { FormsModule } from '@angular/forms';
     AsideComponent,
     ResultadoComponent,
     NoticiasComponent,
-    RegistrarComponent,
+    // RegistrarComponent,
     HomeComponent,
     PostComponent
   ],
